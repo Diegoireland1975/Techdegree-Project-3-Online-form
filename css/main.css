@@ -53,3 +53,9 @@ input {
   margin: 0.5rem 0.3rem;
   width: 100%;
 }
+
+.btn {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background: ;
+}
