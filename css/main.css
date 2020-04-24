@@ -7,8 +7,9 @@
 /* BASIC STYLE */
 main {
   margin: 0 auto;
-  padding: 0 0.5rem 1rem;
+  padding: 0 0.5rem 3rem;
 }
+
 .header-content {
   max-width: 80%;
   margin: 0 auto;
@@ -16,7 +17,7 @@ main {
 }
 
 h1 {
-  background: #333;
+  background: #2d3945;
   color: #fff;
   padding: 1rem;
 }
@@ -25,6 +26,7 @@ header {
   text-align: center;
   margin-bottom: 2rem;
 }
+
 /* FORM STYLE */
 .form {
   text-align: left;
@@ -32,7 +34,8 @@ header {
   padding: 1rem 0.5rem;
 }
 
-.contact {
+.heading-contact,
+.heading-newsletter {
   margin-bottom: 1.5rem;
 }
 
@@ -54,8 +57,19 @@ input {
   width: 100%;
 }
 
+.newsletter {
+  padding: 1.5rem 0;
+}
 .btn {
   display: inline-block;
   padding: 1rem 1.5rem;
-  background: ;
+  margin: 1.5rem 0;
+  background: #4ebbb5;
+  border-style: none;
+  border-radius: 5px;
+  width: 100%;
+  color: #fff;
+}
+.btn:hover,
+.btn:focus {
 }
