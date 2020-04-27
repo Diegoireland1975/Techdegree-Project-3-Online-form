@@ -73,7 +73,7 @@ header {
   margin-bottom: 1.2rem;
 }
 
-.contact-information {
+.contact-info {
   display: flex;
   flex-direction: column;
 }
@@ -89,6 +89,10 @@ input {
   border-radius: 3px;
   margin: 0.5rem 0.3rem;
   width: 100%;
+}
+
+input[type="checkbox"] {
+  width: auto;
 }
 
 .newsletter {
@@ -109,4 +113,10 @@ input {
 .btn:hover,
 .btn:focus {
   color: #ccc;
+}
+.copyright {
+  text-align: center;
+  text-transform: capitalize;
+  font-style: italic;
+  color: #333;
 }
