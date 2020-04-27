@@ -15,31 +15,61 @@
           <p>
             Get the latest news on how your code is doing right in your inbox
           </p>
+          <div class="line1"></div>
+          <div class="line2"></div>
         </header>
       </header>
       <form class="form" action="">
         <h2 class="heading-contact">Contact information</h2>
-        <div class="contact-information">
-          <label for="">Full Name</label>
-          <input type="text" />
-          <label for="">Email Adress</label>
-          <input type="email" />
-          <label for="">Phone Number</label>
-          <input type="text" />
-          <label for="">Street Address</label>
-          <input type="text" />
-          <label for="">City</label>
-          <input type="text" />
-          <label for="">State</label>
-          <input type="text" />
+        <section class="contact-information">
+          <label for="fullname">Full Name </label>
+          <input required type="text" id="fullname" />
+          <label for="email">Email Adress</label>
+          <input required type="email" id="email" />
+          <label for="number">Phone Number</label>
+          <input type="text" id="number" />
+          <label for="address">Street Address</label>
+          <input type="text" id="address" />
+          <label for="city">City</label>
+          <input type="text" id="city" />
+          <label for="state">State</label>
+          <select
+            id="state"
+            name="statelist"
+            placeholder="Choose a State"
+            form="stateform"
+          >
+            <option value="california">California</option>
+            <option value="nevada">Nevada</option>
+            <option value="texas">Texas</option>
+            <option value="newyork">NewYork</option>
+            <option value="newyork">Washington</option>
+            <option value="newyork">Arizona</option>
+            <option value="newyork">Florida</option>
+          </select>
           <label for="">Zip Code</label>
           <input type="text" />
-        </div>
-        <div class="newsletter">
+        </section>
+        <section class="newsletter">
+          <div class="line2"></div>
           <h2 class="heading-newsletter">Newsletter</h2>
           <p>Select the newsletter you would like to receive</p>
-          <button class="btn">Sign up</button>
-        </div>
+          <div>
+            <input type="checkbox" id="htmlnews" name="scales" checked />
+            <label for="htmlnews">HTML News</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="cssnews" name="horns" />
+            <label for="cssnews">CSS News</label>
+          </div>
+          <div>
+            <input type="checkbox" id="javascript" name="horns" />
+            <label for="javascript">Javascript News</label>
+          </div>
+          <p>Newsletter format</p>
+        </section>
+        <button type="submit" class="btn">Sign up</button>
       </form>
     </main>
   </body>
