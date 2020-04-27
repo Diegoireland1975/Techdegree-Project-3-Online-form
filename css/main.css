@@ -78,7 +78,7 @@ header {
   flex-direction: column;
 }
 
-label {
+.contact-info label {
   display: block;
   padding: 0.5rem 1rem;
 }
@@ -91,12 +91,21 @@ input {
   width: 100%;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"],
+input[type="radio"] {
   width: auto;
 }
 
 .newsletter {
   padding: 1.5rem 0;
+}
+
+.newsletter p {
+  margin: 1rem 0;
+}
+
+.textarea {
+  margin-bottom: 10rem;
 }
 
 .btn {
@@ -110,10 +119,12 @@ input[type="checkbox"] {
   color: #fff;
   transition: color 0.3s ease-in;
 }
+
 .btn:hover,
 .btn:focus {
   color: #ccc;
 }
+
 .copyright {
   text-align: center;
   text-transform: capitalize;
