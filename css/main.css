@@ -58,7 +58,7 @@ header {
 .form {
   text-align: left;
   margin: 0 auto;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem;
 }
 
 .heading-contact {
@@ -79,14 +79,14 @@ header {
 }
 
 .contact-info label {
-  display: block;
   padding: 0.5rem 1rem;
 }
 
-input {
-  background: #ccc;
+input,
+select {
+  background: rgb(230, 228, 228);
   padding: 1rem;
-  border-radius: 3px;
+  border-radius: 10px;
   margin: 0.5rem 0.3rem;
   width: 100%;
 }
@@ -104,8 +104,8 @@ input[type="radio"] {
   margin: 1rem 0;
 }
 
-.textarea {
-  margin-bottom: 10rem;
+.area {
+  margin-top: 1rem;
 }
 
 .btn {
@@ -130,4 +130,12 @@ input[type="radio"] {
   text-transform: capitalize;
   font-style: italic;
   color: #333;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  .contact-info label {
+    display: inline;
+  }
 }
