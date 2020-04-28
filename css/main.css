@@ -153,15 +153,16 @@ input[type="radio"] {
   .contact-info {
     flex-direction: row;
     justify-content: center;
+    align-items: center;
   }
 
   .contact-info label {
-    width: 40%;
+    width: 30%;
   }
 
   .contact-info input,
   .contact-info select {
-    width: 60%;
+    width: 70%;
   }
 
   .header-content,
