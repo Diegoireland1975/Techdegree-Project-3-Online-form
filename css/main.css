@@ -64,12 +64,12 @@ header {
 .heading-contact {
   margin-top: -2.5rem;
 }
-.heading-newsletter {
+.heading-news {
   margin-top: 2rem;
 }
 
 .heading-contact,
-.heading-newsletter {
+.heading-news {
   margin-bottom: 1.2rem;
 }
 
@@ -106,11 +106,11 @@ input[type="radio"] {
   margin-right: 0.5rem;
 }
 
-.newsletter {
+.news {
   padding: 1.5rem 0;
 }
 
-.newsletter p {
+.news p {
   margin: 1rem 0;
 }
 
