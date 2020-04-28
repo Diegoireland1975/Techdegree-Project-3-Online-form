@@ -78,6 +78,15 @@ header {
   flex-direction: column;
 }
 
+.contact-info:last-child {
+  margin-bottom: 2rem;
+}
+
+::placeholder {
+  text-align: right;
+  font-style: italic;
+}
+
 .contact-info label {
   padding: 0.5rem 1rem;
 }
@@ -94,6 +103,8 @@ header {
 input[type="checkbox"],
 input[type="radio"] {
   width: auto;
+  background: #4ebbb5;
+  border: #4ebbb5 10px solid;
 }
 
 .newsletter {
@@ -106,6 +117,10 @@ input[type="radio"] {
 
 .area {
   margin-top: 1rem;
+  width: 100%;
+  height: 25vh;
+  background: rgb(230, 228, 228);
+  border-radius: 3px;
 }
 
 .btn {
@@ -139,15 +154,19 @@ input[type="radio"] {
     flex-direction: row;
     justify-content: center;
   }
+
   .contact-info label {
     width: 40%;
   }
+
   .contact-info input,
   .contact-info select {
     width: 60%;
   }
+
+  .header-content,
   .form {
-    width: 90%;
-    max-width: 60%;
+    max-width: 900px;
+    margin: 0 auto;
   }
 }
