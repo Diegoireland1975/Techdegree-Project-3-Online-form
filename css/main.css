@@ -103,8 +103,7 @@ header {
 input[type="checkbox"],
 input[type="radio"] {
   width: auto;
-  background: #4ebbb5;
-  border: #4ebbb5 10px solid;
+  margin-right: 0.5rem;
 }
 
 .newsletter {
