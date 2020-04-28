@@ -158,7 +158,7 @@ input[type="radio"] {
 
   .contact-info {
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -172,7 +172,6 @@ input[type="radio"] {
   }
 
   .zip {
-    width: 30%;
-    justify-self: flex-start;
+    max-width: 30%;
   }
 }
