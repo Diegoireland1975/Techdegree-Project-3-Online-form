@@ -105,8 +105,15 @@ fieldset {
   width: 100%;
 }
 
-input[type="text"]:focus {
-  background: #ccc;
+input,
+textarea {
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.05);
+}
+
+input:focus,
+textarea:focus {
+  border-color: #52bab3;
 }
 
 input[type="checkbox"],
