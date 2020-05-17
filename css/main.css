@@ -106,14 +106,19 @@ fieldset {
 }
 
 input,
-textarea {
+textarea,
+select {
   border: none;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.05);
+  border: 1px solid #52bab3;
+  transition: all 0.25s ease-in-out;
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
+  outline: 0;
   border-color: #52bab3;
+  box-shadow: 0 0 0 0.2rem #52bab3;
 }
 
 input[type="checkbox"],
