@@ -105,6 +105,10 @@ fieldset {
   width: 100%;
 }
 
+input[type="text"]:focus {
+  background: #ccc;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
   width: auto;
@@ -136,12 +140,13 @@ input[type="radio"] {
   border-radius: 5px;
   width: 100%;
   color: #fff;
-  transition: color 0.3s ease-in;
+  transition: color, opacity, 0.3s ease-in;
 }
 
 .btn:hover,
 .btn:focus {
-  color: #ccc;
+  color: #333;
+  opacity: 0.9;
 }
 
 .copyright {
