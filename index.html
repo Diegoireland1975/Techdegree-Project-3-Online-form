@@ -46,7 +46,7 @@
           </div>
           <div class="contact-info">
             <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="user_phone" />
+            <input required type="tel" id="phone" name="user_phone" />
           </div>
           <div class="contact-info">
             <label for="address">Street Address</label>
@@ -128,25 +128,45 @@
           <p>Select the newsletter you would like to receive</p>
 
           <div>
-            <input type="checkbox" id="htmlnews" name="htmlnews" />
+            <input
+              type="checkbox"
+              id="htmlnews"
+              name="newsletter"
+              value="html-news"
+            />
             <label for="htmlnews">HTML News</label>
           </div>
           <div>
-            <input type="checkbox" id="cssnews" name="cssnews" />
+            <input
+              type="checkbox"
+              id="cssnews"
+              name="newsletter"
+              value="css-news"
+            />
             <label for="cssnews">CSS News</label>
           </div>
           <div>
-            <input type="checkbox" id="javascript" name="javascript" />
+            <input
+              type="checkbox"
+              id="javascript"
+              name="newsletter"
+              value="js-news"
+            />
             <label for="javascript">Javascript News</label>
           </div>
 
           <p>Newsletter format</p>
           <div>
-            <input type="radio" id="html" name="html" />
+            <input type="radio" id="html" name="news-format" value="html" />
             <label for="html">HTML</label>
           </div>
           <div>
-            <input type="radio" id="plaintext" name="plaintext" />
+            <input
+              type="radio"
+              id="plaintext"
+              name="news-format"
+              value="text"
+            />
             <label for="plaintext">Plain text</label>
           </div>
           <div>
