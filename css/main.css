@@ -82,6 +82,10 @@ fieldset {
   display: flex;
   flex-direction: column;
 }
+.contact-info:nth-child(even) {
+  background-color: #ccc;
+  border-radius: 2px;
+}
 
 .contact-info:last-child {
   margin-top: -0.1rem;
