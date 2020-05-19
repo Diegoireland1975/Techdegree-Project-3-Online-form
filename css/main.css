@@ -84,7 +84,7 @@ fieldset {
 }
 
 .contact-info:last-child {
-  margin-bottom: 2rem;
+  margin-top: -0.1rem;
 }
 
 ::placeholder {
@@ -94,6 +94,7 @@ fieldset {
 
 .contact-info label {
   padding: 0.5rem 1rem;
+  font-weight: 700;
 }
 
 .contact-info input,
@@ -131,6 +132,9 @@ input[type="radio"] {
   margin-top: 3rem;
 }
 
+.news label {
+  font-weight: 700;
+}
 .news p {
   margin: 1rem 0;
 }
